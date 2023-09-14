@@ -4,7 +4,7 @@
   "description": "Our users should be able to come to our web app to add or remove cars that they want on their Wish List.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+   
     "build": "webpack"
   },
   "repository": {
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Bryantellius/es6_modules#readme",
   "devDependencies": {
-    "webpack": "^5.74.0",
+    "webpack": "^5.88.2",
     "webpack-cli": "^4.10.0"
   }
 }
