@@ -1,3 +1,4 @@
+
 import { Car } from './car.js';
 
 
@@ -12,11 +13,14 @@ export class WishList {
       this.list.push(car);
     }
 
-    remove(carId) {
-    const index = this.list.findIndex((car) => car.id === carId);
+  //   remove(carId) {
+  //   const index = this.list.findIndex((car) => car.id === carId);
 
-    if (index !== -1) {
-      this.list.splice(index, 1);
-    }
+  //   if (index !== -1) {
+  //     this.list.splice(index, 1);
+  //   }
+  // }
+  remove(carId) {
+    this.list = this.list.filter((car) => car.id != carId);
   }
   }
